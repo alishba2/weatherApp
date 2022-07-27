@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+/* .nav{
+    font-size:20px ;
+    font-family: sans-serif ;
+    color: white;
+    background-color: rgb(39, 39, 56);
+    width: auto;
+    padding: 10px;
+    padding-left: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 3px;
+} */
+.Nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 3px;
+    background-color: rgb(39, 39, 56);
+    color: white !important;
+    padding-left: 20px;
+}
+.srchBar{
+    margin-left: 300px;
+    margin-top: 50px;
+    /* border:1px solid black; */
+    /* width:500px; */
+    
+}
+.srchbtn{
+   color: black;
+   border: 1px solid black !important;
+   border-radius: 0px !important;
+   
+}
+.Input{
+    border: 1px solid black !important;
+    width: 650px !important;
+    
+}
+.dropDown{
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+ 
+    align-items: center !important;
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    margin-top: 200px;
+    max-height: 20px;
+    position: relative;
+    margin-left: 300px !important;
+  }
+  
+  .weather.loading:after {
+    
+    visibility: visible;
+    content: "Loading...";
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
