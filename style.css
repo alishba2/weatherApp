@@ -1,17 +1,7 @@
 *{
     box-sizing: border-box;
 }
-/* .nav{
-    font-size:20px ;
-    font-family: sans-serif ;
-    color: white;
-    background-color: rgb(39, 39, 56);
-    width: auto;
-    padding: 10px;
-    padding-left: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 3px;
-} */
+
 .Nav{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 3px;
@@ -22,8 +12,7 @@
 .srchBar{
     margin-left: 300px;
     margin-top: 50px;
-    /* border:1px solid black; */
-    /* width:500px; */
+ 
     
 }
 .srchbtn{
@@ -60,6 +49,7 @@
     max-height: 20px;
     position: relative;
     margin-left: 300px !important;
+    
   }
   
   .weather.loading:after {
@@ -70,4 +60,15 @@
     position: absolute;
     top: 0;
     left: 20px;
+    
+  }
+  .weather{
+    margin-top: 30px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-left: 300px;
+    
   }
